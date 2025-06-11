@@ -1,0 +1,94 @@
+body{
+
+    background-image: url(imagenes/un2.jpg);   
+    background-position:center center ;
+    
+    background-repeat:no-repead;
+    
+    background-size: cover;
+    
+    background-attachment: fixed; 
+    }
+
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 0 0 5px #aaa;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        margin-top: 20px;
+        color: #fff;
+        text-shadow: 0 0 3px #aaa;
+    
+    }
+    
+    .padre{
+        
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000;
+        border: solid 1px black;
+        background-color: rgba(34, 34, 34, 0.7);
+    }
+    
+    .character-img{
+        max-width: 35%;
+        height: auto;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+    
+    .parrafo {
+        color: #cdcfcf;
+        font-size: 1.3em;
+        font-weight: bo ld;
+        margin-bottom: 10px;
+        text-align: center;
+        border: solid 1px rgb(22, 20, 20);
+    }
+    
+    p{
+        color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+        .parrafo {
+        font-size: 1.1em;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        body {
+            background-image: url(imagenes/movil2.jpg);
+            background-position:center center ;
+    
+    background-repeat:no-repead;
+    
+    background-size: cover;
+    
+    background-attachment: fixed;
+        }
+    }
+    
+    div:hover{
+border-color: #c8d1d1;
+box-shadow: 0 0 10px 2px #cdcfcf;
+outline: none;
+}
+p:hover{
+    border-color: #c8d1d1;
+    box-shadow: 0 0 10px 2px #cdcfcf;
+    outline: none;
+    }
+    

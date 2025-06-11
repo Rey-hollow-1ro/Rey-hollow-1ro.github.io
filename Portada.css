@@ -1,0 +1,101 @@
+body{
+
+background-image: url(imagenes/movil.jpg);
+
+
+background-position:center center ;
+background-repeat:no-repead;
+
+background-size: cover;
+
+background-attachment: fixed;
+}
+
+.img2>a>button>img{
+
+border-radius: 100%;
+max-width: 20%;
+opacity:0.5;
+position: absolute;
+bottom: 32%;
+left: 40%;
+animation: brillo 2s infinite , rotar 5s linear infinite;
+    }              
+.img>audio{ 
+
+border-radius: 10%;
+
+max-width: 30%;
+
+position: absolute;
+
+bottom:40%;
+
+left: 37%;
+
+opacity: 0.1;
+
+}
+
+.img{
+
+Justify-content: center;
+
+align-items: center;
+
+display: flex;
+
+}
+
+.img2{
+
+Justify-content: center;
+
+align-items: center;
+
+display: flex;
+}
+
+button{
+    
+    display: flex;
+    
+}
+
+@keyframes brillo {
+
+0% ,100% {
+
+Filter: brightness(100%);
+
+}
+
+50% {
+
+filter: brightness(50%);
+
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(imagenes/un.jpg);
+        background-position:center center ;
+
+background-repeat:no-repead;
+
+background-size: cover;
+
+background-attachment: fixed;
+    }
+}
+
+@keyframes rotar {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
